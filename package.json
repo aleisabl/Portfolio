@@ -1,0 +1,25 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Front-End Web Developer portfolio for Laboratoria, Chile.",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aleisabl/Portfolio.git"
+  },
+  "keywords": [
+    "portfolio",
+    "laboratoria",
+    "chile",
+    "developer"
+  ],
+  "author": "Alexandra Fernández",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aleisabl/Portfolio/issues"
+  },
+  "homepage": "https://github.com/aleisabl/Portfolio#readme"
+}
