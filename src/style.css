@@ -17,6 +17,7 @@ body
     border: 5px solid rgba(0,0,0,.125);
     border-radius: 1.25rem;
     margin-left: 30px;
+    width: 19.5rem;
 }
 
 :root 
@@ -54,4 +55,50 @@ a:hover
     margin-left: -0.5rem;
     align-self: center;
 }
+
+img.me {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+img.me {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+
+
+/* Media Query para la versión de escritorio */
     
+@media (min-width: 800px) {
+    .me {
+      margin-left: -35rem;
+      width: 36rem;    
+      
+    }
+
+  }
+
+  @media (min-width: 800px) {
+    .card {
+      margin-left: 46rem;
+      margin-top: -32rem;
+      width: 25rem;
+      height: 30rem;
+    }
+
+  }
+
+  @media (min-width: 800px) {
+    #typed, #typed-strings, .typed-cursor {
+      margin-left: -39rem;
+      margin-top: -1rem;
+    }
+
+  }
