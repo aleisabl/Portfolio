@@ -11,13 +11,13 @@ body
 
 .card 
 {
-    background-color: rgb(146, 106, 136);
+    background-color: rgb(54, 49, 49);
     height: 444px;
-    mix-blend-mode: lighten;
-    border: 5px solid rgba(0,0,0,.125);
+    border: 5px solid pink;
     border-radius: 1.25rem;
     margin-left: 30px;
     width: 19.5rem;
+    color: white;
 }
 
 :root 
@@ -87,8 +87,8 @@ img.me {
 
   @media (min-width: 800px) {
     .card {
-      margin-left: 46rem;
-      margin-top: -32rem;
+      margin-left: 46.5rem;
+      margin-top: -33rem;
       width: 25rem;
       height: 30rem;
     }
