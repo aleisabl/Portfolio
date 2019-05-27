@@ -13,7 +13,7 @@ body
 {
     background-color: rgb(54, 49, 49);
     height: 444px;
-    border: 5px solid pink;
+    border: 5px solid rgb(255, 255, 255);
     border-radius: 1.25rem;
     margin-left: 30px;
     width: 19.5rem;
@@ -31,7 +31,7 @@ a
     background-position: 0 100%;
     background-repeat: repeat-x;
     background-size: 3px 3px;
-    color: pink;
+    color: rgb(192, 242, 255);
     text-decoration: none;
 }
       
@@ -40,6 +40,7 @@ a:hover
     background-image:url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23453886' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
     background-position: 0 100%;
     background-size: auto 6px;
+    color: pink;
     background-repeat: repeat-x;
     text-decoration: none;
 }
@@ -88,7 +89,7 @@ img.me {
   @media (min-width: 800px) {
     .card {
       margin-left: 46.5rem;
-      margin-top: -33rem;
+      margin-top: -34rem;
       width: 25rem;
       height: 30rem;
     }
@@ -98,7 +99,8 @@ img.me {
   @media (min-width: 800px) {
     #typed, #typed-strings, .typed-cursor {
       margin-left: -39rem;
-      margin-top: -1rem;
+      margin-top: -1.5rem;
+      font-size: 1.5rem;
     }
 
   }
