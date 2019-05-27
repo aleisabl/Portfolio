@@ -1,0 +1,57 @@
+body 
+{
+    background: #E8D5D5;
+    display: flex;/* 
+    align-items: center;
+    justify-content: center; */
+    flex-direction: column; 
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.card 
+{
+    background-color: rgb(146, 106, 136);
+    height: 444px;
+    mix-blend-mode: lighten;
+    border: 5px solid rgba(0,0,0,.125);
+    border-radius: 1.25rem;
+    margin-left: 30px;
+}
+
+:root 
+{
+    --mainColor: purple;
+}
+
+a 
+{
+    background: linear-gradient(to bottom, var(--mainColor) 0%, var(--mainColor) 100%);
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 3px 3px;
+    color: pink;
+    text-decoration: none;
+}
+      
+a:hover 
+{
+    background-image:url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23453886' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+    background-position: 0 100%;
+    background-size: auto 6px;
+    background-repeat: repeat-x;
+    text-decoration: none;
+}
+
+.card-title 
+{
+    color: pink;
+}
+
+.me 
+{
+    width: 25rem;
+    margin-left: -0.5rem;
+    align-self: center;
+}
+    
