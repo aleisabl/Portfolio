@@ -55,8 +55,9 @@ a:hover
 .me 
 {
     width: 23rem;
-    margin-left: -2.1rem;
+    margin-left: -1.0rem;
     align-self: center;
+    margin-top: -0.5rem;
 }
 
 img.me {
