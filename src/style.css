@@ -23,6 +23,7 @@ body
     width: 19.5rem;
     color: white;
     display: table;
+    margin-bottom: 1.5rem;
 }
 
 :root 
