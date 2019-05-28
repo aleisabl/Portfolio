@@ -9,6 +9,11 @@ body
     text-align: center;
 }
 
+.typed-cursor {
+    opacity: 1;
+    margin-top: 1.5rem;
+}
+
 .card 
 {
     position: static;
@@ -18,7 +23,7 @@ body
     border-radius: 1.25rem;
     margin-left: 0px;
     width: 19.5rem;
-    margin-left: -20px;
+    margin-left: -2rem;
     color: white;
 }
 
@@ -55,8 +60,7 @@ a:hover
 .me 
 {
     width: 23rem;
-    margin-left: -1.0rem;
-    align-self: center;
+    margin-left: -1.5rem;
     margin-top: -0.5rem;
 }
 
@@ -91,8 +95,8 @@ img.me {
 
   @media (min-width: 800px) {
     .card {
-      margin-left: 46.5rem;
-      margin-top: -34rem;
+      margin-left: 40.5rem;
+      margin-top: -37.5rem;
       width: 25rem;
       height: 30rem;
     }
@@ -102,7 +106,7 @@ img.me {
   @media (min-width: 800px) {
     #typed, #typed-strings, .typed-cursor {
       margin-left: -39rem;
-      margin-top: -1.5rem;
+      margin-top: -0.1rem;
       font-size: 1.5rem;
     }
 
